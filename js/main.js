@@ -1,4 +1,14 @@
 $(document).ready(function() {
+  smoothie();
+  wow = new WOW({
+    animateClass: 'animated',
+    offset: 100,
+    callback: function(box) {
+      console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+    }
+  });
+  wow.init();
+
   $('#formulario').submit(function(event) {
     event.preventDefault();
     let host = 'smtp.gmail.com';
