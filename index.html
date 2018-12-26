@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 
 <body>
@@ -24,33 +25,19 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
 
       <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="img/logo.png" class="img-fluid" width="100" height="80" alt="">
-        </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item ">
-              <a class="nav-link active" href="#inicio" data-smoothie>INICIO</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#nosotros" data-smoothie>NOSOTROS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#reparacion" data-smoothie>REPARACIÓN</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#mantenimiento" data-smoothie>MANTENIMIENTO</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contacto" data-smoothie>CONTACTO</a>
-            </li>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ni"><a class="nav-link active" href="#inicio" data-smoothie>INICIO</a></li>
+            <li class="nav-item ni"><a class="nav-link " href="#nosotros" data-smoothie>NOSOTROS</a></li>
+            <li class="nav-item ni"><a class="nav-link" href="#reparacion" data-smoothie>REPARACIÓN</a></li>
+            <li class="nav-item ni"><a class="nav-link" href="#mantenimiento" data-smoothie>MANTENIMIENTO</a></li>
+            <li class="nav-item ni"><a class="nav-link" href="#contacto" data-smoothie>CONTACTO</a></li>
           </ul>
-
         </div>
       </div>
 
@@ -62,36 +49,33 @@
 
     <section class="fondo-lavadora height" id="inicio">
 
-      <div class="container inicio flex-column justify-content-center align-items-center d-flex ">
-        <div class="row justify-content-center align-items-center d-flex text-center wow fadeIn" data-wow-duration="3s">
-          <div class="col-xs-12">
-            <p>COPY MAS 4 PALABRAS</p>
-            <h1 class="inicio-title">LAVADORAS</h1>
-          </div>
+      <div class="container-fluid">
 
-        </div>
+        <div class="row justify-content-center p-l"><div class="col-xs-12"><img class="img-fluid logo" src="img/logo.png" alt=""></div></div>
 
-        <div class="row justify-content-between">
-          <div class="col-xs-12 col-md-6 wow fadeIn" data-wow-duration="3s">
-            <h3 class="inicio-s-title">Lavadoras</h3>
+        <div class="row wow fadeIn " data-wow-duration="3s">
+          
+          <div class="col-xs-12 col-md-3 p-l wow fadeIn order-1 order-md-0" data-wow-duration="3s">
+            <h3 class="inicio-s-title">LAVADORAS</h3>
             <hr>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente nulla impedit repudiandae voluptate recusandae error ipsam doloremque at. Dolores eaque culpa, earum voluptatum neque animi cumque ea necessitatibus eius maiores!</p>
           </div>
 
-          <div class="col-xs-12 col-md-6 d-flex flex-column align-self-end">
+          <div class="col-xs-12 col-md-6 text-center order-0 order-md-1">
+            <p class="title-span">COPY MAS 4 PALABRAS</p>
+            <h1 class="inicio-title display-1">LAVADORAS</h1>
+          </div>
+
+          <div class="col-xs-12 col-md-3 d-flex flex-column align-self-end order-2 ">
             <ul class="nav flex-md-column align-self-md-end align-self-center">
-              <li class="nav-item">
-                <a class="nav-link active" href="#"><img src="./img/twitter.png" alt=""></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><img src="./img/facebook.png" alt=""></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><img src="./img/instagram.png" alt=""></a>
-              </li>
+              <li class="nav-item"><a class="nav-link active" href="#"><img src="./img/twitter.png" alt=""></a></li>
+              <li class="nav-item"><a class="nav-link" href="#"><img src="./img/facebook.png" alt=""></a></li>
+              <li class="nav-item"><a class="nav-link" href="#"><img src="./img/instagram.png" alt=""></a></li>
             </ul>
           </div>
+
         </div>
+
       </div>
 
     </section>
@@ -99,7 +83,7 @@
     <section class="fondo" id="nosotros">
 
       <div class="container-fluid height">
-        <div class="row h-100">
+        <div class="row h-100  justify-content-around">
           <div class="col-xs-12 col-md-6 pt-5 col-nosotros wow fadeIn" data-wow-duration="3s">
             <h2>NOSOTROS</h2>
             <P>Somos una empresa cuyo objetivo y compromiso es proporcionar las herramientas tecnológicas para cubrir necesidades de seguridad patrimonial teniendo como principio la calidad de servicio.</P>
@@ -109,7 +93,7 @@
             <p>Ser una empresa con presencia multinacional. Líderes de calidad de servicio en el mercado de la venta y alquiler de fincas</p>
           </div>
           <div class="col-xs-12 col-md-6 align-self-end col-img">
-            <img class="img-fluid img-nosotros wow fadeInDown" data-wow-duration="3s" src="./img/lavadora.png" alt="">
+            <div class="d-flex justify-content-end"><img class="img-fluid img-nosotros wow fadeInDown" data-wow-duration="3s" src="./img/lavadora.png" alt=""></div>
           </div>
         </div>
       </div>
@@ -117,15 +101,15 @@
     </section>
 
 
-    <section class="fondo-color" id="reparacion">
+   <section class="fondo-color" id="reparacion">
 
-      <div class="container height">
+      <div class="container-fluid height">
         <div class="row h-100 justify-content-center align-items-center d-flex">
           <div class="col-xs-12 col-md-6 pt-m wow fadeIn" data-wow-duration="3s">
             <h2>REPARACIÓN</h2>
             <P>Somos una empresa cuyo objetivo y compromiso es proporcionar las herramientas tecnológicas para cubrir necesidades de seguridad patrimonial teniendo como principio la calidad de servicio.</P>
           </div>
-          <div class="col-xs-12 col-md-6 align-self-end d-flex justify-content-md-end ">
+          <div class="col-xs-12 col-md-6 align-self-end d-flex justify-content-center ">
             <img class="img-fluid reparacion-img wow fadeInDown" data-wow-duration="3s" src="./img/lavadora-2.png" alt="">
           </div>
         </div>
@@ -135,14 +119,14 @@
 
     <section class="fondo" id="mantenimiento">
 
-      <div class="container height">
+      <div class="container-fluid height">
         <div class="row h-100 justify-content-center align-items-center d-flex">
           <div class="col-xs-12 col-md-6 pt-m wow fadeIn" data-wow-duration="3s">
             <h2>MANTENIMIENTO</h2>
             <P>Somos una empresa cuyo objetivo y compromiso es proporcionar las herramientas tecnológicas para cubrir necesidades de seguridad patrimonial teniendo como principio la calidad de servicio.</P>
           </div>
-          <div class="col-xs-12 col-md-6 align-self-end">
-            <img class="img-fluid wow fadeInDown" data-wow-duration="3s" src="./img/lavadora-3.png" alt="">
+          <div class="col-xs-12 col-md-6 align-self-end d-flex justify-content-center ">
+            <img class="img-fluid wow fadeInDown img-mantenimiento" data-wow-duration="3s" src="./img/lavadora-3.png" alt="">
           </div>
         </div>
       </div>
@@ -156,62 +140,41 @@
         <div class="row h-100 justify-content-center align-items-center d-flex">
           <div class="col-xs-12 col-md-6 pt-m wow fadeIn" data-wow-duration="3s">
             <h2>CONTACTO</h2>
-
+            <P>Somos una empresa cuyo objetivo y compromiso es proporcionar las herramientas tecnológicas para cubrir necesidades de seguridad patrimonial teniendo como principio la calidad de servicio.</P>
             <div class="d-flex flex-wrap justify-content-between mb-3">
-              <h4>Telefono: +30 333 12 68</h4>
-              <h4>Correo: hc@gdomain.com</h4>
+              <h4><i class="fas fa-phone"></i> Telefono: +30 333 12 68</h4>
+              <h4><i class="far fa-envelope"></i> Correo: hc@gdomain.com</h4>
             </div>
 
-            <form id="formulario">
-              <div class="form-group">
-                <label for="names">Nombres</label>
-                <input type="text" class="form-control" id="names" placeholder="Nombres" required>
-              </div>
-
-              <div class="form-group">
-                <label for="email">Correo</label>
-                <input type="email" class="form-control" id="email" placeholder="Correo" required>
-              </div>
-
-              <div class="form-group">
-                <label for="subject">Asunto</label>
-                <input type="text" class="form-control" id="subject" placeholder="Asunto" required>
-              </div>
-
-              <div class="form-group">
-                <label for="message">Mensaje</label>
-                <textarea class="form-control" id="message" rows="3"></textarea>
-              </div>
-
-              <div class="text-center"> <button type="submit" class="btn btn-green btn-lg">Enviar mensaje</button></div>
-
-            </form>
-
-            <div class="pt-3" id="msg"></div>
           </div>
-          <div class="col-xs-12 col-md-4 align-self-end d-flex justify-content-md-end">
+          
+          <div class="col-xs-12 col-md-6 align-self-end d-flex justify-content-center">
             <img class="img-fluid reparacion-img wow fadeInDown" data-wow-duration="3s" src="./img/lavadora-4.png" alt="">
-
-          </div>
-          <div class="col-xs-12 col-md-1 d-flex flex-column ">
-            <ul class="nav flex-md-column align-self-md-end align-self-center pt-2">
-              <li class=" nav-item ">
-                <a class="nav-link active " href="# "><img src="./img/twitter.png " alt=" "></a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link " href="# "><img src="./img/facebook.png " alt=" "></a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link " href="# "><img src="./img/instagram.png " alt=" "></a>
-              </li>
-            </ul>
           </div>
         </div>
       </div>
 
     </section>
-
   </main>
+
+  <footer >
+    <div class="bg-t">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-4">
+            <ul class="nav">
+              <li class="nav-item"><a class="nav-link active" href="#"><img src="./img/twitter.png" alt=""></a></li>
+              <li class="nav-item"><a class="nav-link" href="#"><img src="./img/facebook.png" alt=""></a></li>
+              <li class="nav-item"><a class="nav-link" href="#"><img src="./img/instagram.png" alt=""></a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-8 d-flex align-items-center"><span> COPYRIGHT 2018</span></div>
+        </div>
+      </div>
+    </div>
+    
+    
+  </footer>
 
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -221,21 +184,11 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/smoothie.min.js"></script>
-  <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script src="js/wow.min.js"></script>
   <script src="js/main.js"></script>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function() {
-      ga.q.push(arguments)
-    };
-    ga.q = [];
-    ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto');
-    ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </body>
 
 </html>
+
+
